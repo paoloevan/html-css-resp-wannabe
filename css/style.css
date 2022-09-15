@@ -159,6 +159,11 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        width: 100%;
+    }
+
     .lessons .container,
     .steps .container,
     .why-us .container {
@@ -169,10 +174,16 @@ img {
     img {
         width: 80%;
     }
-    .col {
-        padding: 0;
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+        width: 100%;
     }
     .why-us .col-right {
         text-align: center;
+    }
+
+    .why-us {
+        background: rgb(36, 35, 35);
     }
 }
