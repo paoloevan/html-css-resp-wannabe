@@ -157,6 +157,13 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+    .lessons .container,
+    .steps .container,
+    .why-us .container {
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
     img {
         width: 80%;
     }
